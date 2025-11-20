@@ -9,62 +9,65 @@ Please wait a few minutes(~10 mins) after clicking — the app processes the dat
 
 Key Functionalities
 
-  Data Cleaning & Preprocessing:
+  -Data Cleaning & Preprocessing:
   Handles missing values, caps outliers, standardizes numerical features, and prepares encoded categorical features.
   
-  Summary Statistics:
+  -Summary Statistics:
   Descriptive statistics, distribution plots, pie charts, and data insights.
   
-  Feature Selection:
+  -Feature Selection:
   Correlation heatmaps, threshold-based selection, and downloadable selected feature sets.
   
-  Dimensionality Reduction:
+  -Dimensionality Reduction:
   
-  PCA (Principal Component Analysis)
+  -PCA (Principal Component Analysis)
   
-  Precomputed t-SNE visualization
+  -Precomputed t-SNE visualization
   
-  Patient Clustering:
+  -Patient Clustering:
   Compare multiple clustering algorithms:
   
-  K-Means
+  -K-Means
   
-  DBSCAN
+  -DBSCAN
   
-  Hierarchical Clustering
-  Includes t-SNE cluster overlays and silhouette-based comparisons.
+  -Hierarchical Clustering
   
-  Association Rule Mining:
+  -Includes t-SNE cluster overlays and silhouette-based comparisons.
+  
+  -Association Rule Mining:
   Apriori-based disease association discovery with lift, confidence, and support metrics.
 
 Dashboard Workflow
 
-  Raw Data → Cleaning:
+  -Raw Data → Cleaning:
   
-  Remove irrelevant columns
+  -Remove irrelevant columns
   
-  Standardize numerical features
+  -Standardize numerical features
   
-  Clip extreme values
+  -Clip extreme values
   
-  Encode categorical variables
+  -Encode categorical variables
   
-  Analysis Layer:
+  -Analysis Layer:
   
-  Statistics
+  -Statistics
   
-  Feature correlations
+  -Feature correlations
   
-  Principal components
+  -Principal components
   
-  Clustering
+  -Clustering
   
-  Association patterns
+  -Association patterns
   
-  Visualization Layer:
-  Interactive charts (Plotly), tables, metrics, and gradient-styled UI.
+  -Visualization Layer:
+  
+  -Interactive charts (Plotly), tables, metrics, and gradient-styled UI.
 
 Page-by-Page Overview
+
   1️⃣ Overview
   
   Project introduction
@@ -121,19 +124,27 @@ Page-by-Page Overview
 
 Deployment
 
-  The dashboard is publicly hosted on HuggingFace Spaces using the Streamlit template:
-  Live App:
+  -The dashboard is publicly hosted on HuggingFace Spaces using the Streamlit template:
+  
+  -Live App:
   https://huggingface.co/spaces/Megha-Harsha/Hospital-Patient-Comorbidity-and-Readmission-Dashboard
-  Note:
+  
+  -Note:
   The app loads and processes a large dataset during startup.
   Please wait 10-12 minutess for the dashboard to fully initialize.
 
 Tech Stack:
 
-  Python
-  Streamlit
-  Pandas / NumPy
-  Plotly
-  Scikit-Learn
-  Apriori (mlxtend)
-  HuggingFace Spaces (Deployment)
+  -Python
+  
+  -Streamlit
+  
+  -Pandas / NumPy
+  
+  -Plotly
+  
+  -Scikit-Learn
+  
+  -Apriori (mlxtend)
+  
+  -HuggingFace Spaces (Deployment)
